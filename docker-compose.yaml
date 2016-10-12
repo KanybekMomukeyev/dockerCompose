@@ -3,7 +3,7 @@ api:
   ports:
     - 3000:3000
   volumes:
-    - ./api:/go/src/github.com/EwanValentine/project/api
+    - ./api:/go/src/github.com/KanybekMomukeyev/dockerCompose/api
   links:
     - database
   environment:
